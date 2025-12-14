@@ -1,0 +1,104 @@
+html, body, #root, .App {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
+  background-color: #fff;
+  scrollbar-color: #0d6efd #212529;
+}
+
+section {
+  scroll-margin-top: 70px; 
+}
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.element-hover:hover {
+  color: #0dcaf0 !important;
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-light .navbar-toggler-icon {
+  filter: none;
+}
+
+.navbar-toggler {
+  border: none !important;
+  background: transparent !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.cursor {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  30% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #qualifications .card {
+    padding: 1.5rem !important;
+    margin: 0.75rem !important;
+    border-width: 3px !important;
+    min-height: auto !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #qualifications .ps-4 {
+    padding-left: 1rem !important;
+  }
+
+  #qualifications .border-start {
+    left: 0.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #qualifications h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem !important;
+  }
+
+  #qualifications h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem !important;
+  }
+
+  #qualifications p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 576px) {
+  #qualifications .d-flex.justify-content-between {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.75rem;
+  }
+
+  #qualifications .btn {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 576px) {
+  #qualifications .shadow-sm {
+    padding: 1rem !important;
+  }
+}
